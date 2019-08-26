@@ -1,0 +1,14 @@
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.webapi\bin\Debug\netcoreapp2.2\lightweight.webapi.deps.json
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.webapi\bin\Debug\netcoreapp2.2\lightweight.webapi.runtimeconfig.json
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.webapi\bin\Debug\netcoreapp2.2\lightweight.webapi.runtimeconfig.dev.json
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.webapi\bin\Debug\netcoreapp2.2\lightweight.webapi.dll
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.webapi\bin\Debug\netcoreapp2.2\lightweight.webapi.pdb
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.webapi\obj\Debug\netcoreapp2.2\lightweight.webapi.csprojAssemblyReference.cache
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.webapi\obj\Debug\netcoreapp2.2\lightweight.webapi.csproj.CoreCompileInputs.cache
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.webapi\obj\Debug\netcoreapp2.2\lightweight.webapi.RazorAssemblyInfo.cache
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.webapi\obj\Debug\netcoreapp2.2\lightweight.webapi.RazorAssemblyInfo.cs
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.webapi\obj\Debug\netcoreapp2.2\lightweight.webapi.AssemblyInfoInputs.cache
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.webapi\obj\Debug\netcoreapp2.2\lightweight.webapi.AssemblyInfo.cs
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.webapi\obj\Debug\netcoreapp2.2\lightweight.webapi.RazorTargetAssemblyInfo.cache
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.webapi\obj\Debug\netcoreapp2.2\lightweight.webapi.dll
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.webapi\obj\Debug\netcoreapp2.2\lightweight.webapi.pdb
