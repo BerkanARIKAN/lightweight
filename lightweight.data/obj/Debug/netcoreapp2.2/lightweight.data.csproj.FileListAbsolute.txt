@@ -1,0 +1,9 @@
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.data\bin\Debug\netcoreapp2.2\lightweight.data.deps.json
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.data\bin\Debug\netcoreapp2.2\lightweight.data.dll
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.data\bin\Debug\netcoreapp2.2\lightweight.data.pdb
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.data\obj\Debug\netcoreapp2.2\lightweight.data.csproj.CoreCompileInputs.cache
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.data\obj\Debug\netcoreapp2.2\lightweight.data.AssemblyInfoInputs.cache
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.data\obj\Debug\netcoreapp2.2\lightweight.data.AssemblyInfo.cs
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.data\obj\Debug\netcoreapp2.2\lightweight.data.dll
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.data\obj\Debug\netcoreapp2.2\lightweight.data.pdb
+C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.data\obj\Debug\netcoreapp2.2\lightweight.data.csprojAssemblyReference.cache

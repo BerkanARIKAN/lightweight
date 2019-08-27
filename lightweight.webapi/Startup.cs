@@ -1,14 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using lightweight.business.Abstract;
+using lightweight.business.Concrete;
+using lightweight.core.Abstract;
+using lightweight.core.Concrete;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace lightweight.webapi
 {
@@ -24,16 +26,70 @@ namespace lightweight.webapi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+           
+
+            // configure jwt authentication
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("CoreSwagger", new Info
+                {
+                    Title = "Web Api lightweight startter",
+                    Version = "1.0.0",
+                    Description = "ef core, postgresql, aspnetcore,jwt",
+                    Contact = new Contact()
+                    {
+                        Name = "Swagger Implementation Bora kasmer",
+                        Url = "http://berkanarikan.com.tr",
+                        Email = "i@berkanarikan.com.tr"
+                    },
+                    TermsOfService = "http://swagger.io/terms/"
+                });
+            });
+
+            var key = Encoding.ASCII.GetBytes("jwt secret key. change please ");
+            services.AddAuthentication(x =>
+                {
+                    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                })
+                .AddJwtBearer(x =>
+                {
+                    x.RequireHttpsMetadata = false;
+                    x.SaveToken = true;
+                    x.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = new SymmetricSecurityKey(key),
+                        ValidateIssuer = false,
+                        ValidateAudience = false
+                    };
+                });
+       
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
+            // global cors policy
+            app.UseCors(x => x
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader());
+            app.UseSwagger()
+                .UseSwaggerUI(c =>
+                {
+                    //TODO: Either use the SwaggerGen generated Swagger contract (generated from C# classes)
+                    c.SwaggerEndpoint("/swagger/CoreSwagger/swagger.json", "Swagger Test .Net Core");
+
+                    //TODO: Or alternatively use the original Swagger contract that's included in the static files
+                    // c.SwaggerEndpoint("/swagger-original.json", "Swagger Petstore Original");
+                });
+
+            app.UseAuthentication();
 
             app.UseMvc();
         }
