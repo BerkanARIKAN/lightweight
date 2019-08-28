@@ -27,16 +27,9 @@ C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netc
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\lightweight.business.pdb
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\lightweight.core.dll
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\lightweight.data.dll
-C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Http.Abstractions.dll
-C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\Newtonsoft.Json.dll
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\lightweight.core.pdb
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\lightweight.data.pdb
-C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Http.Abstractions.xml
-C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\Microsoft.IdentityModel.Tokens.pdb
-C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\Microsoft.IdentityModel.Tokens.xml
-C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\Newtonsoft.Json.xml
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\System.IdentityModel.Tokens.Jwt.pdb
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\System.IdentityModel.Tokens.Jwt.xml
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\obj\Debug\netcoreapp2.2\lightweight.business.csprojAssemblyReference.cache
