@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <Folder Include="swagger\" />
+    <Folder Include="swagger\" />
   </ItemGroup>
 
 </Project>

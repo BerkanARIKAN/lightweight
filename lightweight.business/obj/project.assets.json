@@ -3676,11 +3676,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Berkan\\source\\repos\\lightweightaspcore\\lightweight.business\\lightweight.business.csproj",
+      "projectUniqueName": "C:\\Users\\Berkan\\Documents\\GitHub\\lightweight\\lightweight.business\\lightweight.business.csproj",
       "projectName": "lightweight.business",
-      "projectPath": "C:\\Users\\Berkan\\source\\repos\\lightweightaspcore\\lightweight.business\\lightweight.business.csproj",
+      "projectPath": "C:\\Users\\Berkan\\Documents\\GitHub\\lightweight\\lightweight.business\\lightweight.business.csproj",
       "packagesPath": "C:\\Users\\Berkan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Berkan\\source\\repos\\lightweightaspcore\\lightweight.business\\obj\\",
+      "outputPath": "C:\\Users\\Berkan\\Documents\\GitHub\\lightweight\\lightweight.business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3699,11 +3699,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Berkan\\source\\repos\\lightweightaspcore\\lightweight.core\\lightweight.core.csproj": {
-              "projectPath": "C:\\Users\\Berkan\\source\\repos\\lightweightaspcore\\lightweight.core\\lightweight.core.csproj"
+            "C:\\Users\\Berkan\\Documents\\GitHub\\lightweight\\lightweight.core\\lightweight.core.csproj": {
+              "projectPath": "C:\\Users\\Berkan\\Documents\\GitHub\\lightweight\\lightweight.core\\lightweight.core.csproj"
             },
-            "C:\\Users\\Berkan\\source\\repos\\lightweightaspcore\\lightweight.data\\lightweight.data.csproj": {
-              "projectPath": "C:\\Users\\Berkan\\source\\repos\\lightweightaspcore\\lightweight.data\\lightweight.data.csproj"
+            "C:\\Users\\Berkan\\Documents\\GitHub\\lightweight\\lightweight.data\\lightweight.data.csproj": {
+              "projectPath": "C:\\Users\\Berkan\\Documents\\GitHub\\lightweight\\lightweight.data\\lightweight.data.csproj"
             }
           }
         }

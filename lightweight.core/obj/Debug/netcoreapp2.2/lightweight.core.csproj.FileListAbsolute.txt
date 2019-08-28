@@ -10,3 +10,15 @@ C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.core\obj\Debug\netco
 C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.core\obj\Debug\netcoreapp2.2\lightweight.core.csproj.CopyComplete
 C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.core\obj\Debug\netcoreapp2.2\lightweight.core.dll
 C:\Users\Berkan\source\repos\lightweightaspcore\lightweight.core\obj\Debug\netcoreapp2.2\lightweight.core.pdb
+C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.core\bin\Debug\netcoreapp2.2\lightweight.core.deps.json
+C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.core\bin\Debug\netcoreapp2.2\lightweight.core.dll
+C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.core\bin\Debug\netcoreapp2.2\lightweight.core.pdb
+C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.core\bin\Debug\netcoreapp2.2\lightweight.data.dll
+C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.core\bin\Debug\netcoreapp2.2\lightweight.data.pdb
+C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.core\obj\Debug\netcoreapp2.2\lightweight.core.csprojAssemblyReference.cache
+C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.core\obj\Debug\netcoreapp2.2\lightweight.core.csproj.CoreCompileInputs.cache
+C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.core\obj\Debug\netcoreapp2.2\lightweight.core.AssemblyInfoInputs.cache
+C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.core\obj\Debug\netcoreapp2.2\lightweight.core.AssemblyInfo.cs
+C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.core\obj\Debug\netcoreapp2.2\lightweight.core.csproj.CopyComplete
+C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.core\obj\Debug\netcoreapp2.2\lightweight.core.dll
+C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.core\obj\Debug\netcoreapp2.2\lightweight.core.pdb

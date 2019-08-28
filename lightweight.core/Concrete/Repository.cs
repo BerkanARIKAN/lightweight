@@ -8,10 +8,16 @@ using Microsoft.EntityFrameworkCore;
 
 namespace lightweight.core.Concrete
 {
-    public class Repository<T> :IRepository<T> where T:class
+    public class Repository<T> :IRepository<T> where T:class 
     {
         private readonly lwContext _context;
         private DbSet<T> _entities;
+
+        public Repository(lwContext context)
+        {
+            _context = context;
+            _entities = context.Set<T>();
+        }
 
         public virtual T GetById(object id)
         {

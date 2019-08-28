@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using lightweight.data.Context;
 using Swashbuckle.AspNetCore.Swagger;
 
 namespace lightweight.webapi
@@ -26,9 +27,9 @@ namespace lightweight.webapi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-           
 
-            // configure jwt authentication
+
+            services.AddDbContext<lwContext>();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddSwaggerGen(c =>

@@ -3638,11 +3638,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Berkan\\source\\repos\\lightweightaspcore\\lightweight.data\\lightweight.data.csproj",
+      "projectUniqueName": "C:\\Users\\Berkan\\Documents\\GitHub\\lightweight\\lightweight.data\\lightweight.data.csproj",
       "projectName": "lightweight.data",
-      "projectPath": "C:\\Users\\Berkan\\source\\repos\\lightweightaspcore\\lightweight.data\\lightweight.data.csproj",
+      "projectPath": "C:\\Users\\Berkan\\Documents\\GitHub\\lightweight\\lightweight.data\\lightweight.data.csproj",
       "packagesPath": "C:\\Users\\Berkan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Berkan\\source\\repos\\lightweightaspcore\\lightweight.data\\obj\\",
+      "outputPath": "C:\\Users\\Berkan\\Documents\\GitHub\\lightweight\\lightweight.data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

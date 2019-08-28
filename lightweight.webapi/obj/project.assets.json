@@ -12332,11 +12332,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Berkan\\source\\repos\\lightweightaspcore\\lightweight.webapi\\lightweight.webapi.csproj",
+      "projectUniqueName": "C:\\Users\\Berkan\\Documents\\GitHub\\lightweight\\lightweight.webapi\\lightweight.webapi.csproj",
       "projectName": "lightweight.webapi",
-      "projectPath": "C:\\Users\\Berkan\\source\\repos\\lightweightaspcore\\lightweight.webapi\\lightweight.webapi.csproj",
+      "projectPath": "C:\\Users\\Berkan\\Documents\\GitHub\\lightweight\\lightweight.webapi\\lightweight.webapi.csproj",
       "packagesPath": "C:\\Users\\Berkan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Berkan\\source\\repos\\lightweightaspcore\\lightweight.webapi\\obj\\",
+      "outputPath": "C:\\Users\\Berkan\\Documents\\GitHub\\lightweight\\lightweight.webapi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12355,8 +12355,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Berkan\\source\\repos\\lightweightaspcore\\lightweight.business\\lightweight.business.csproj": {
-              "projectPath": "C:\\Users\\Berkan\\source\\repos\\lightweightaspcore\\lightweight.business\\lightweight.business.csproj"
+            "C:\\Users\\Berkan\\Documents\\GitHub\\lightweight\\lightweight.business\\lightweight.business.csproj": {
+              "projectPath": "C:\\Users\\Berkan\\Documents\\GitHub\\lightweight\\lightweight.business\\lightweight.business.csproj"
             }
           }
         }
