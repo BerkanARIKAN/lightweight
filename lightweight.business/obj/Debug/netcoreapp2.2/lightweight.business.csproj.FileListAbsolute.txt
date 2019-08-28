@@ -27,11 +27,8 @@ C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netc
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\lightweight.business.pdb
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\lightweight.core.dll
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\lightweight.data.dll
-C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\lightweight.core.pdb
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\lightweight.data.pdb
-C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\System.IdentityModel.Tokens.Jwt.pdb
-C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\System.IdentityModel.Tokens.Jwt.xml
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\obj\Debug\netcoreapp2.2\lightweight.business.csprojAssemblyReference.cache
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\obj\Debug\netcoreapp2.2\lightweight.business.csproj.CoreCompileInputs.cache
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\obj\Debug\netcoreapp2.2\lightweight.business.AssemblyInfoInputs.cache

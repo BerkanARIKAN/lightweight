@@ -36,12 +36,12 @@ namespace lightweight.webapi
             {
                 c.SwaggerDoc("CoreSwagger", new Info
                 {
-                    Title = "Web Api lightweight startter",
+                    Title = "lightweight Asp.net Core",
                     Version = "1.0.0",
-                    Description = "ef core, postgresql, aspnetcore,jwt",
+                    Description = "lightweight Asp.net Core Api Repository Design Pattern , Jwt ,Ef Core,Role Based Starter Project",
                     Contact = new Contact()
                     {
-                        Name = "Swagger Implementation Bora kasmer",
+                        Name = "lightweight ",
                         Url = "http://berkanarikan.com.tr",
                         Email = "i@berkanarikan.com.tr"
                     },
