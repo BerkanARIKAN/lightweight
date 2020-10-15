@@ -16,3 +16,12 @@ C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.data\obj\Debug\netcorea
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.data\obj\Debug\netcoreapp2.2\lightweight.data.AssemblyInfo.cs
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.data\obj\Debug\netcoreapp2.2\lightweight.data.dll
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.data\obj\Debug\netcoreapp2.2\lightweight.data.pdb
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.data\bin\Debug\netcoreapp2.2\lightweight.data.deps.json
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.data\bin\Debug\netcoreapp2.2\lightweight.data.dll
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.data\bin\Debug\netcoreapp2.2\lightweight.data.pdb
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.data\obj\Debug\netcoreapp2.2\lightweight.data.csprojAssemblyReference.cache
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.data\obj\Debug\netcoreapp2.2\lightweight.data.AssemblyInfoInputs.cache
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.data\obj\Debug\netcoreapp2.2\lightweight.data.AssemblyInfo.cs
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.data\obj\Debug\netcoreapp2.2\lightweight.data.csproj.CoreCompileInputs.cache
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.data\obj\Debug\netcoreapp2.2\lightweight.data.dll
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.data\obj\Debug\netcoreapp2.2\lightweight.data.pdb

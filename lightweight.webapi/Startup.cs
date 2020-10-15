@@ -12,6 +12,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using lightweight.data.Context;
 using Swashbuckle.AspNetCore.Swagger;
+using Microsoft.OpenApi.Models;
+using System;
 
 namespace lightweight.webapi
 {
@@ -34,19 +36,25 @@ namespace lightweight.webapi
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("CoreSwagger", new Info
+                c.SwaggerDoc("v2", new OpenApiInfo
                 {
+                    Version = "v2",
                     Title = "lightweight Asp.net Core",
-                    Version = "1.0.0",
                     Description = "lightweight Asp.net Core Api Repository Design Pattern , Jwt ,Ef Core,Role Based Starter Project",
-                    Contact = new Contact()
+                    TermsOfService = new Uri("https://example.com/terms"),
+                    Contact = new OpenApiContact
                     {
-                        Name = "lightweight ",
-                        Url = "http://berkanarikan.com.tr",
-                        Email = "i@berkanarikan.com.tr"
+                        Name = "Berkan ARIKAN",
+                        Email = "i@berkanarikan.com.tr",
+                        Url = new Uri("https://github.com/BerkanARIKAN"),
                     },
-                    TermsOfService = "http://swagger.io/terms/"
-                });
+                    License = new OpenApiLicense
+                    {
+                        Name = "Use under LICX",
+                        Url = new Uri("https://example.com/license"),
+                    }
+                });           
+              
             });
 
             var key = Encoding.ASCII.GetBytes("jwt secret key. change please ");
@@ -73,7 +81,7 @@ namespace lightweight.webapi
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             // global cors policy
             app.UseCors(x => x
@@ -84,15 +92,15 @@ namespace lightweight.webapi
                 .UseSwaggerUI(c =>
                 {
                     //TODO: Either use the SwaggerGen generated Swagger contract (generated from C# classes)
-                    c.SwaggerEndpoint("/swagger/CoreSwagger/swagger.json", "Swagger Test .Net Core");
+                    c.SwaggerEndpoint("/swagger/v2/swagger.json", "Swagger Test .Net Core");
 
                     //TODO: Or alternatively use the original Swagger contract that's included in the static files
                     // c.SwaggerEndpoint("/swagger-original.json", "Swagger Petstore Original");
                 });
 
             app.UseAuthentication();
-
-            app.UseMvc();
+         
+            app.UseRouting();
         }
     }
 }

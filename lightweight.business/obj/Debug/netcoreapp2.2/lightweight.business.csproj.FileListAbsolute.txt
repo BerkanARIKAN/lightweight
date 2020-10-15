@@ -36,3 +36,17 @@ C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\obj\Debug\netc
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\obj\Debug\netcoreapp2.2\lightweight.business.csproj.CopyComplete
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\obj\Debug\netcoreapp2.2\lightweight.business.dll
 C:\Users\Berkan\Documents\GitHub\lightweight\lightweight.business\obj\Debug\netcoreapp2.2\lightweight.business.pdb
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\lightweight.business.deps.json
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\lightweight.business.dll
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\lightweight.business.pdb
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\lightweight.core.dll
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\lightweight.data.dll
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\lightweight.core.pdb
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.business\bin\Debug\netcoreapp2.2\lightweight.data.pdb
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.business\obj\Debug\netcoreapp2.2\lightweight.business.csprojAssemblyReference.cache
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.business\obj\Debug\netcoreapp2.2\lightweight.business.AssemblyInfoInputs.cache
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.business\obj\Debug\netcoreapp2.2\lightweight.business.AssemblyInfo.cs
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.business\obj\Debug\netcoreapp2.2\lightweight.business.csproj.CoreCompileInputs.cache
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.business\obj\Debug\netcoreapp2.2\lightweight.business.csproj.CopyComplete
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.business\obj\Debug\netcoreapp2.2\lightweight.business.dll
+C:\Users\Berkan\Source\Repos\lightweight\lightweight.business\obj\Debug\netcoreapp2.2\lightweight.business.pdb
