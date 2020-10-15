@@ -14,6 +14,7 @@ using lightweight.data.Context;
 using Swashbuckle.AspNetCore.Swagger;
 using Microsoft.OpenApi.Models;
 using System;
+using Newtonsoft.Json;
 
 namespace lightweight.webapi
 {
@@ -25,11 +26,27 @@ namespace lightweight.webapi
         }
 
         public IConfiguration Configuration { get; }
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // cors add
+            services.AddCors(options =>
+            {
+                options.AddPolicy("MyPolicy", // I introduced a string constant just as a label "AllowAllOriginsPolicy"
+                    builder =>
+                    {
+                        builder.AllowAnyOrigin()
+                            .AllowAnyHeader()
+                            .AllowAnyHeader();
 
+                    });
+
+            });
+            services.AddControllers(options => options.EnableEndpointRouting = false);
+            services.AddHttpContextAccessor();
+     
 
             services.AddDbContext<lwContext>();
             services.AddScoped<IUserService, UserService>();
@@ -53,8 +70,8 @@ namespace lightweight.webapi
                         Name = "Use under LICX",
                         Url = new Uri("https://example.com/license"),
                     }
-                });           
-              
+                });
+
             });
 
             var key = Encoding.ASCII.GetBytes("jwt secret key. change please ");
@@ -75,19 +92,17 @@ namespace lightweight.webapi
                         ValidateAudience = false
                     };
                 });
-       
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc().AddNewtonsoftJson(options =>
+                           options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
             // global cors policy
-            app.UseCors(x => x
-                .AllowAnyOrigin()
-                .AllowAnyMethod()
-                .AllowAnyHeader());
+            app.UseCors(MyAllowSpecificOrigins);
             app.UseSwagger()
                 .UseSwaggerUI(c =>
                 {
@@ -99,8 +114,19 @@ namespace lightweight.webapi
                 });
 
             app.UseAuthentication();
-         
+            //cors add
             app.UseRouting();
+            app.UseCors(builder => builder
+                .AllowAnyHeader()
+                .AllowAnyMethod()
+                .SetIsOriginAllowed((host) => true)
+                .AllowCredentials()
+            );
+
+            app.UseAuthorization();
+
+            app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }
     }
 }
+

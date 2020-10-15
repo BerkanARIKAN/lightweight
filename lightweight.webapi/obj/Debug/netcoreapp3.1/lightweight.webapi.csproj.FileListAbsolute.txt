@@ -1,9 +1,6 @@
 C:\Users\Berkan\source\repos\lightweight\lightweight.webapi\obj\Debug\netcoreapp3.1\lightweight.webapi.csprojAssemblyReference.cache
 C:\Users\Berkan\source\repos\lightweight\lightweight.webapi\obj\Debug\netcoreapp3.1\lightweight.webapi.AssemblyInfoInputs.cache
 C:\Users\Berkan\source\repos\lightweight\lightweight.webapi\obj\Debug\netcoreapp3.1\lightweight.webapi.AssemblyInfo.cs
-C:\Users\Berkan\source\repos\lightweight\lightweight.webapi\obj\Debug\netcoreapp3.1\lightweight.webapi.csproj.CoreCompileInputs.cache
-C:\Users\Berkan\source\repos\lightweight\lightweight.webapi\obj\Debug\netcoreapp3.1\lightweight.webapi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Berkan\source\repos\lightweight\lightweight.webapi\obj\Debug\netcoreapp3.1\lightweight.webapi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Berkan\source\repos\lightweight\lightweight.webapi\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Berkan\source\repos\lightweight\lightweight.webapi\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Berkan\source\repos\lightweight\lightweight.webapi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -50,3 +47,9 @@ C:\Users\Berkan\source\repos\lightweight\lightweight.webapi\bin\Debug\netcoreapp
 C:\Users\Berkan\source\repos\lightweight\lightweight.webapi\obj\Debug\netcoreapp3.1\lightweight.webapi.dll
 C:\Users\Berkan\source\repos\lightweight\lightweight.webapi\obj\Debug\netcoreapp3.1\lightweight.webapi.pdb
 C:\Users\Berkan\source\repos\lightweight\lightweight.webapi\obj\Debug\netcoreapp3.1\lightweight.webapi.genruntimeconfig.cache
+C:\Users\Berkan\source\repos\lightweight\lightweight.webapi\obj\Debug\netcoreapp3.1\lightweight.webapi.csproj.CoreCompileInputs.cache
+C:\Users\Berkan\source\repos\lightweight\lightweight.webapi\obj\Debug\netcoreapp3.1\lightweight.webapi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Berkan\source\repos\lightweight\lightweight.webapi\obj\Debug\netcoreapp3.1\lightweight.webapi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Berkan\source\repos\lightweight\lightweight.webapi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Berkan\source\repos\lightweight\lightweight.webapi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Berkan\source\repos\lightweight\lightweight.webapi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

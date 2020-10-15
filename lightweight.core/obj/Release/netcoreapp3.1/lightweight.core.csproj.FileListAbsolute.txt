@@ -1,0 +1,12 @@
+C:\Users\Berkan\source\repos\lightweight\lightweight.core\bin\Release\netcoreapp3.1\lightweight.core.deps.json
+C:\Users\Berkan\source\repos\lightweight\lightweight.core\bin\Release\netcoreapp3.1\lightweight.core.dll
+C:\Users\Berkan\source\repos\lightweight\lightweight.core\bin\Release\netcoreapp3.1\lightweight.core.pdb
+C:\Users\Berkan\source\repos\lightweight\lightweight.core\bin\Release\netcoreapp3.1\lightweight.data.dll
+C:\Users\Berkan\source\repos\lightweight\lightweight.core\bin\Release\netcoreapp3.1\lightweight.data.pdb
+C:\Users\Berkan\source\repos\lightweight\lightweight.core\obj\Release\netcoreapp3.1\lightweight.core.csprojAssemblyReference.cache
+C:\Users\Berkan\source\repos\lightweight\lightweight.core\obj\Release\netcoreapp3.1\lightweight.core.AssemblyInfoInputs.cache
+C:\Users\Berkan\source\repos\lightweight\lightweight.core\obj\Release\netcoreapp3.1\lightweight.core.AssemblyInfo.cs
+C:\Users\Berkan\source\repos\lightweight\lightweight.core\obj\Release\netcoreapp3.1\lightweight.core.csproj.CoreCompileInputs.cache
+C:\Users\Berkan\source\repos\lightweight\lightweight.core\obj\Release\netcoreapp3.1\lightweight.core.csproj.CopyComplete
+C:\Users\Berkan\source\repos\lightweight\lightweight.core\obj\Release\netcoreapp3.1\lightweight.core.dll
+C:\Users\Berkan\source\repos\lightweight\lightweight.core\obj\Release\netcoreapp3.1\lightweight.core.pdb

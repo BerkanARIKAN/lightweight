@@ -1,0 +1,14 @@
+C:\Users\Berkan\source\repos\lightweight\lightweight.business\bin\Release\netcoreapp3.1\lightweight.business.deps.json
+C:\Users\Berkan\source\repos\lightweight\lightweight.business\bin\Release\netcoreapp3.1\lightweight.business.dll
+C:\Users\Berkan\source\repos\lightweight\lightweight.business\bin\Release\netcoreapp3.1\lightweight.business.pdb
+C:\Users\Berkan\source\repos\lightweight\lightweight.business\bin\Release\netcoreapp3.1\lightweight.core.dll
+C:\Users\Berkan\source\repos\lightweight\lightweight.business\bin\Release\netcoreapp3.1\lightweight.data.dll
+C:\Users\Berkan\source\repos\lightweight\lightweight.business\bin\Release\netcoreapp3.1\lightweight.core.pdb
+C:\Users\Berkan\source\repos\lightweight\lightweight.business\bin\Release\netcoreapp3.1\lightweight.data.pdb
+C:\Users\Berkan\source\repos\lightweight\lightweight.business\obj\Release\netcoreapp3.1\lightweight.business.csprojAssemblyReference.cache
+C:\Users\Berkan\source\repos\lightweight\lightweight.business\obj\Release\netcoreapp3.1\lightweight.business.AssemblyInfoInputs.cache
+C:\Users\Berkan\source\repos\lightweight\lightweight.business\obj\Release\netcoreapp3.1\lightweight.business.AssemblyInfo.cs
+C:\Users\Berkan\source\repos\lightweight\lightweight.business\obj\Release\netcoreapp3.1\lightweight.business.csproj.CoreCompileInputs.cache
+C:\Users\Berkan\source\repos\lightweight\lightweight.business\obj\Release\netcoreapp3.1\lightweight.business.csproj.CopyComplete
+C:\Users\Berkan\source\repos\lightweight\lightweight.business\obj\Release\netcoreapp3.1\lightweight.business.dll
+C:\Users\Berkan\source\repos\lightweight\lightweight.business\obj\Release\netcoreapp3.1\lightweight.business.pdb

@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using lightweight.business.Abstract;
 using lightweight.data.Model;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace lightweight.webapi.Controllers
@@ -18,7 +19,7 @@ namespace lightweight.webapi.Controllers
         {
             _userService = userService;
         }
-
+     
         [AllowAnonymous]
         [HttpPost("authenticate")]
         public ServiceResponse<Users> Authenticate([FromBody]Users userParam)
