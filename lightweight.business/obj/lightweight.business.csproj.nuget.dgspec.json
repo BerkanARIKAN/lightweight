@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.business\\lightweight.business.csproj": {}
+    "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.business\\lightweight.business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.business\\lightweight.business.csproj": {
+    "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.business\\lightweight.business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.business\\lightweight.business.csproj",
+        "projectUniqueName": "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.business\\lightweight.business.csproj",
         "projectName": "lightweight.business",
-        "projectPath": "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.business\\lightweight.business.csproj",
-        "packagesPath": "C:\\Users\\Berkan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.business\\obj\\",
+        "projectPath": "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.business\\lightweight.business.csproj",
+        "packagesPath": "C:\\Users\\reyhan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Berkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\reyhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -31,11 +31,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.core\\lightweight.core.csproj": {
-                "projectPath": "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.core\\lightweight.core.csproj"
+              "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.core\\lightweight.core.csproj": {
+                "projectPath": "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.core\\lightweight.core.csproj"
               },
-              "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.data\\lightweight.data.csproj": {
-                "projectPath": "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.data\\lightweight.data.csproj"
+              "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.data\\lightweight.data.csproj": {
+                "projectPath": "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.data\\lightweight.data.csproj"
               }
             }
           }
@@ -55,7 +55,7 @@
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
-              "version": "[5.3.0, )"
+              "version": "[5.5.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -63,7 +63,7 @@
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[5.3.0, )"
+              "version": "[5.5.0, )"
             }
           },
           "imports": [
@@ -81,24 +81,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.core\\lightweight.core.csproj": {
+    "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.core\\lightweight.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.core\\lightweight.core.csproj",
+        "projectUniqueName": "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.core\\lightweight.core.csproj",
         "projectName": "lightweight.core",
-        "projectPath": "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.core\\lightweight.core.csproj",
-        "packagesPath": "C:\\Users\\Berkan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.core\\obj\\",
+        "projectPath": "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.core\\lightweight.core.csproj",
+        "packagesPath": "C:\\Users\\reyhan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Berkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\reyhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -112,8 +112,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.data\\lightweight.data.csproj": {
-                "projectPath": "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.data\\lightweight.data.csproj"
+              "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.data\\lightweight.data.csproj": {
+                "projectPath": "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.data\\lightweight.data.csproj"
               }
             }
           }
@@ -129,7 +129,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[2.2.6, )"
+              "version": "[3.1.9, )"
             }
           },
           "imports": [
@@ -147,24 +147,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.data\\lightweight.data.csproj": {
+    "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.data\\lightweight.data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.data\\lightweight.data.csproj",
+        "projectUniqueName": "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.data\\lightweight.data.csproj",
         "projectName": "lightweight.data",
-        "projectPath": "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.data\\lightweight.data.csproj",
-        "packagesPath": "C:\\Users\\Berkan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.data\\obj\\",
+        "projectPath": "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.data\\lightweight.data.csproj",
+        "packagesPath": "C:\\Users\\reyhan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Berkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\reyhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -189,9 +189,19 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[2.2.6, )"
+              "version": "[3.1.9, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
@@ -213,7 +223,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

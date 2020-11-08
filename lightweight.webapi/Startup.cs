@@ -50,6 +50,8 @@ namespace lightweight.webapi
 
             services.AddDbContext<lwContext>();
             services.AddScoped<IUserService, UserService>();
+
+            services.AddScoped<ICustomerService, CustomerService>();
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddSwaggerGen(c =>
             {

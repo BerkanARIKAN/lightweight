@@ -37,7 +37,7 @@ namespace lightweight.business.Concrete
                 Subject = new ClaimsIdentity(new Claim[]
                 {
                     new Claim(ClaimTypes.Name, userget.id.ToString()),
-                    new Claim(ClaimTypes.Role, userget.role)
+                    new Claim(ClaimTypes.Role, userget.role==null?Role.User:userget.role)
                 }),
                 Expires = DateTime.UtcNow.AddDays(7),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
@@ -61,6 +61,7 @@ namespace lightweight.business.Concrete
             
         }
 
+
         public ServiceResponse<Users> GetList()
         {
             var response = new ServiceResponse<Users>(null);
@@ -77,6 +78,30 @@ namespace lightweight.business.Concrete
                 response.HasExceptionError = true;
                 return response;
             }
+        }
+
+        public ServiceResponse<bool> Register(Users user)
+        {
+
+            var response = new ServiceResponse<bool>(null);
+            try
+            {
+                //şifreyi hashleyecek
+                string hash = Cipher.Encrypt("password", user.password);
+                user.password = hash;
+                //database insert
+                _userRepository.Insert(user);
+                response.Entity = true;
+            }
+            catch (Exception ex)
+            {
+                response.Entity = false;
+                response.IsSuccessful = false;
+                response.ExceptionMessage = ex.Message;
+            }
+           
+            // işlenin sonucunu dön
+            return response;
         }
     }
 }
