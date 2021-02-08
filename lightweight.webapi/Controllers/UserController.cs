@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using lightweight.business.Abstract;
 using lightweight.data.Model;
@@ -7,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace lightweight.webapi.Controllers
 {
-    [Authorize]
+    
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
@@ -19,8 +20,14 @@ namespace lightweight.webapi.Controllers
         {
             _userService = userService;
         }
-     
         [AllowAnonymous]
+        [HttpPost("register")]
+        public ServiceResponse<Boolean> Register([FromBody] Users user)
+        {
+            return _userService.Register(user);
+        } 
+
+      [AllowAnonymous]
         [HttpPost("authenticate")]
         public ServiceResponse<Users> Authenticate([FromBody]Users userParam)
         {

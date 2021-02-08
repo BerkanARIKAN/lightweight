@@ -7,3 +7,15 @@ C:\Users\Berkan\source\repos\lightweight\lightweight.data\obj\Debug\netcoreapp3.
 C:\Users\Berkan\source\repos\lightweight\lightweight.data\obj\Debug\netcoreapp3.1\lightweight.data.csproj.CoreCompileInputs.cache
 C:\Users\Berkan\source\repos\lightweight\lightweight.data\obj\Debug\netcoreapp3.1\lightweight.data.dll
 C:\Users\Berkan\source\repos\lightweight\lightweight.data\obj\Debug\netcoreapp3.1\lightweight.data.pdb
+C:\Users\reyhan\Desktop\lightweight-master\lightweight-master\lightweight.data\bin\Debug\netcoreapp3.1\lightweight.data.deps.json
+C:\Users\reyhan\Desktop\lightweight-master\lightweight-master\lightweight.data\bin\Debug\netcoreapp3.1\lightweight.data.dll
+C:\Users\reyhan\Desktop\lightweight-master\lightweight-master\lightweight.data\bin\Debug\netcoreapp3.1\lightweight.data.pdb
+C:\Users\reyhan\Desktop\lightweight-master\lightweight-master\lightweight.data\obj\Debug\netcoreapp3.1\lightweight.data.csprojAssemblyReference.cache
+C:\Users\reyhan\Desktop\lightweight-master\lightweight-master\lightweight.data\obj\Debug\netcoreapp3.1\lightweight.data.AssemblyInfoInputs.cache
+C:\Users\reyhan\Desktop\lightweight-master\lightweight-master\lightweight.data\obj\Debug\netcoreapp3.1\lightweight.data.AssemblyInfo.cs
+C:\Users\reyhan\Desktop\lightweight-master\lightweight-master\lightweight.data\obj\Debug\netcoreapp3.1\lightweight.data.dll
+C:\Users\reyhan\Desktop\lightweight-master\lightweight-master\lightweight.data\obj\Debug\netcoreapp3.1\lightweight.data.pdb
+C:\Users\reyhan\Desktop\lightweight-master\lightweight-master\lightweight.data\obj\Debug\netcoreapp3.1\lightweight.data.csproj.CoreCompileInputs.cache
+C:\Users\reyhan\Desktop\lightweight-master\lightweight-master\lightweight.data\bin\Debug\netcoreapp3.1\lightweight.data.runtimeconfig.json
+C:\Users\reyhan\Desktop\lightweight-master\lightweight-master\lightweight.data\bin\Debug\netcoreapp3.1\lightweight.data.runtimeconfig.dev.json
+C:\Users\reyhan\Desktop\lightweight-master\lightweight-master\lightweight.data\obj\Debug\netcoreapp3.1\lightweight.data.genruntimeconfig.cache

@@ -108,8 +108,13 @@ namespace lightweight.core.Concrete
 
         public IEnumerable<T> GetSql(string sql)
         {
-            return Entities.FromSql(sql);
+            throw new NotImplementedException();
         }
+
+        //public IEnumerable<T> GetSql(string sql)
+        //{
+        //    return Entities.FromSql(sql);
+        //}
 
         /// <summary>
         ///     Gets a table

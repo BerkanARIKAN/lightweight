@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.data\\lightweight.data.csproj": {}
+    "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.data\\lightweight.data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.data\\lightweight.data.csproj": {
+    "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.data\\lightweight.data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.data\\lightweight.data.csproj",
+        "projectUniqueName": "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.data\\lightweight.data.csproj",
         "projectName": "lightweight.data",
-        "projectPath": "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.data\\lightweight.data.csproj",
-        "packagesPath": "C:\\Users\\Berkan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Berkan\\source\\repos\\lightweight\\lightweight.data\\obj\\",
+        "projectPath": "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.data\\lightweight.data.csproj",
+        "packagesPath": "C:\\Users\\reyhan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\reyhan\\Desktop\\lightweight-master\\lightweight-master\\lightweight.data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Berkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\reyhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -42,9 +42,19 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[2.2.6, )"
+              "version": "[3.1.9, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
@@ -66,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -7,5 +7,6 @@ namespace lightweight.business.Abstract
     {
         ServiceResponse<Users> Authenticate(string user,string pass);
         ServiceResponse<Users> GetList();
+        public ServiceResponse<bool> Register(Users user);
     }
 }
